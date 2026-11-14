@@ -15,3 +15,4 @@ class Solution:
             nextGreater[stack.pop()] = -1
 
         return [nextGreater[num] for num in nums1]
+        
